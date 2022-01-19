@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "618130249894",
+    "project_id": "e-comers-1a91b",
+    "storage_bucket": "e-comers-1a91b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618130249894:android:052e5914f1700266173c67",
+        "android_client_info": {
+          "package_name": "com.example.e_commers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618130249894-7bl5ui1pvcvof0438454v7fu92edcpfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy86Z64ffAF6G9o3TOBiqhYCPLznUfQY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618130249894-7bl5ui1pvcvof0438454v7fu92edcpfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

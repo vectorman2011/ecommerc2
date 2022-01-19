@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="A simple implementation of Flutter for Web.">
+  <meta name="keywords" content="Flutter, Hummingbird">
+  <meta name="author" content="Ayush Shekhar">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>e-commerce</title>
+  <script defer src="main.dart.js" type="application/javascript"></script>
+</head>
+<body>
+
+       <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('flutter-first-frame', function () {
+            navigator.serviceWorker.register('flutter_service_worker.js');
+          });
+        }
+      </script>
+      <script>
+      var firebaseConfig = {
+        apiKey: "********",
+        authDomain: "*******",
+        databaseURL: "https*******.com",
+        projectId: "******",
+        storageBucket: "nse7a-68809.appspot.com",
+        messagingSenderId: "******",
+        appId: "1:******",
+        measurementId: "G-F5XJN2HE8D"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+      <script src="main.dart.js" type="application/javascript"></script>
+    </body>
+</html>
